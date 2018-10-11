@@ -32,8 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CalculatorLibrary">
-      <HintPath>..\..\Programmering\SmartMenuLibrary\CalculatorLibrary\bin\Debug\CalculatorLibrary.dll</HintPath>
+    <Reference Include="CalculatorLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Programmering\CalculatorLibrary\CalculatorLibrary\bin\Debug\CalculatorLibrary.dll</HintPath>
     </Reference>
     <Reference Include="SmartMenuLibrary">
       <HintPath>..\..\Programmering\SmartMenuLibrary\SmartMenuLibrary\bin\Debug\SmartMenuLibrary.dll</HintPath>

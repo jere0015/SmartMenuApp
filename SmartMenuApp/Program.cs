@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SmartMenuLibrary;
+using SmartMenuApp;
 
 namespace CalculatorApp
 {
@@ -18,7 +19,9 @@ namespace CalculatorApp
         private void Run()
         {
             SmartMenu menu = new SmartMenu();
-            menu.LoadMenu("MenuSpec.txt");
+            menu.LoadMenu("MenuSpec.txt");            
+            Binding test = new Binding();
+            test.BindingTest();
             menu.Activate();
         }
     }
